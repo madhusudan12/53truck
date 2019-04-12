@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>868</width>
-    <height>213</height>
+    <width>637</width>
+    <height>447</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>130</y>
+      <x>90</x>
+      <y>190</y>
       <width>201</width>
       <height>21</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>120</y>
+      <x>260</x>
+      <y>180</y>
       <width>91</width>
       <height>33</height>
      </rect>
@@ -40,8 +40,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>150</y>
+      <x>120</x>
+      <y>230</y>
       <width>251</width>
       <height>31</height>
      </rect>
@@ -53,8 +53,8 @@
    <widget class="QLineEdit" name="lineEdit_3">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>0</y>
+      <x>90</x>
+      <y>20</y>
       <width>131</width>
       <height>33</height>
      </rect>
@@ -63,8 +63,8 @@
    <widget class="QLineEdit" name="lineEdit_4">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>0</y>
+      <x>410</x>
+      <y>20</y>
       <width>71</width>
       <height>33</height>
      </rect>
@@ -73,18 +73,21 @@
    <widget class="QLineEdit" name="lineEdit_5">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>40</y>
-      <width>151</width>
+      <x>80</x>
+      <y>70</y>
+      <width>101</width>
       <height>33</height>
      </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_6">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>80</y>
+      <x>80</x>
+      <y>120</y>
       <width>151</width>
       <height>33</height>
      </rect>
@@ -93,8 +96,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
+      <x>20</x>
+      <y>30</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -106,8 +109,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>10</y>
+      <x>240</x>
+      <y>30</y>
       <width>201</width>
       <height>21</height>
      </rect>
@@ -119,8 +122,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>90</y>
+      <x>30</x>
+      <y>130</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -133,7 +136,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>50</y>
+      <y>80</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -145,8 +148,8 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>50</y>
+      <x>190</x>
+      <y>80</y>
       <width>611</width>
       <height>21</height>
      </rect>
@@ -159,7 +162,7 @@
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>90</y>
+      <y>130</y>
       <width>621</width>
       <height>21</height>
      </rect>
@@ -168,6 +171,36 @@
      <string>( can be Chevy,GMC,Nissan,Dodge,Toyota,Ford, volkswagen etc.  )</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../truck.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>lineEdit_6</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

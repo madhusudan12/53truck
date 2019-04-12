@@ -1,3 +1,4 @@
+
 # Copyright 2016 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -104,5 +105,3 @@ if __name__ == "__main__":
   # The Estimator periodically generates "INFO" logs; make these logs visible.
   tf.logging.set_verbosity(tf.logging.INFO)
   tf.app.run(main=main)
-
-

@@ -29,7 +29,7 @@ except ImportError:
   pass
 
 
-URL = "C:\\Users\\kmadh\\Desktop\\major\\53truck\\imports-85.data"
+URL = "file:///C:/mpp/53truck/imports-85.data"
 
 # Order is important for the csv-readers, so we use an OrderedDict here.
 defaults = collections.OrderedDict([
@@ -91,8 +91,7 @@ def dataset(y_name="price", train_fraction=0.7):
     """Convert a csv line into a (features_dict,label) pair."""
     # Decode the line to a tuple of items based on the types of
     # csv_header.values().
-    records = list(defaults.values())
-    items = tf.decode_csv(line, record_defaults=records)
+    items = tf.decode_csv(line, list(defaults.values()))
 
     # Convert the keys and items to a dict.
     pairs = zip(defaults.keys(), items)

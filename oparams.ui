@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>546</width>
-    <height>213</height>
+    <width>625</width>
+    <height>488</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>130</y>
+      <x>90</x>
+      <y>190</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>120</y>
+      <x>140</x>
+      <y>190</y>
       <width>131</width>
       <height>33</height>
      </rect>
@@ -40,8 +40,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>160</y>
+      <x>100</x>
+      <y>240</y>
       <width>301</width>
       <height>31</height>
      </rect>
@@ -53,8 +53,8 @@
    <widget class="QLineEdit" name="lineEdit_3">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>0</y>
+      <x>80</x>
+      <y>60</y>
       <width>131</width>
       <height>33</height>
      </rect>
@@ -63,8 +63,8 @@
    <widget class="QLineEdit" name="lineEdit_4">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>10</y>
+      <x>350</x>
+      <y>60</y>
       <width>121</width>
       <height>33</height>
      </rect>
@@ -73,8 +73,8 @@
    <widget class="QLineEdit" name="lineEdit_5">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>40</y>
+      <x>80</x>
+      <y>100</y>
       <width>131</width>
       <height>33</height>
      </rect>
@@ -83,10 +83,10 @@
    <widget class="QLineEdit" name="lineEdit_6">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>80</y>
-      <width>131</width>
-      <height>33</height>
+      <x>170</x>
+      <y>152</y>
+      <width>51</width>
+      <height>31</height>
      </rect>
     </property>
    </widget>
@@ -94,7 +94,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>60</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -106,8 +106,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>10</y>
+      <x>220</x>
+      <y>60</y>
       <width>161</width>
       <height>21</height>
      </rect>
@@ -119,8 +119,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>90</y>
+      <x>80</x>
+      <y>160</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -133,7 +133,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>50</y>
+      <y>110</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -145,8 +145,8 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>50</y>
+      <x>220</x>
+      <y>110</y>
       <width>231</width>
       <height>21</height>
      </rect>
@@ -171,8 +171,8 @@
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>120</y>
+      <x>280</x>
+      <y>190</y>
       <width>191</width>
       <height>21</height>
      </rect>
@@ -184,16 +184,48 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>90</y>
+      <x>220</x>
+      <y>160</y>
       <width>261</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>(High Way  Milage in miles per gallon)</string>
+     <string>(Highway Milage in miles per gallon)</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>791</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../truck.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>lineEdit_6</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_9</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

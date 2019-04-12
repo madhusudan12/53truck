@@ -27,7 +27,7 @@ class MyForm(QtWidgets.QMainWindow):
     os.system("python shape1.py")
 
   def predict(self):
-    os.system("python regression1.py")
+    os.system("python samp6.py")
 
 #  def gnrep(self):
 #	os.system("python genrep1.py")
