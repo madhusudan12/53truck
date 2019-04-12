@@ -29,7 +29,7 @@ except ImportError:
   pass
 
 
-URL = "C:\\Users\\kmadh\\Desktop\\major\\53truck\\imports-85.data"
+URL = "file:///home/k_madhusudan12/projects/53truck/imports-85.data"
 
 # Order is important for the csv-readers, so we use an OrderedDict here.
 defaults = collections.OrderedDict([
