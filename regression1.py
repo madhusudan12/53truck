@@ -30,6 +30,7 @@ PRICE_NORM_FACTOR = 1000
 
 def main(argv):
   """Builds, trains, and evaluates the model."""
+  print("start")
   assert len(argv) == 1
   (train, test) = imports85.dataset()
 
@@ -99,7 +100,6 @@ def main(argv):
 
     print("    " + msg)
   print()
-  print("end")
 
 
 if __name__ == "__main__":
