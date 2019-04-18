@@ -99,6 +99,7 @@ def main(argv):
 
     print("    " + msg)
   print()
+  print("end")
 
 
 if __name__ == "__main__":
